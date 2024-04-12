@@ -1,0 +1,153 @@
+<html>
+<head>
+
+</head>
+<style>
+    #Font{
+        font-style: italic;
+        font-size: 15pt;
+        text-align: center;
+    }
+    #Prices{
+        font-size: 15pt;
+    }
+   
+    th{
+        color: aliceblue;
+        text-align: justify;
+        font-family: 'Times New Roman';
+    
+    }
+    #checkbox{
+        text-align: center;
+    }
+    #Regular{
+        text-align: center;
+        font-size: 10pt;
+        font-style: italic;
+    }
+     #Food{
+        font-weight: bolder;
+        font-size: 15pt;
+     }   
+  
+</style>
+<body>
+    <table border="1">
+        <tr>
+            <td>
+                <img src="https://assets.elgourmet.com/wp-content/uploads/2023/03/spagh_e8DiuI5qVF4d3xokhn0EQAtHJYXSU6-1024x683.png.webp" alt="" height="270px" width="250px">
+            </td>
+            <td>
+                <img src="https://thecozycook.com/wp-content/uploads/2022/03/Sweet-and-Sour-Chicken-f5.jpg" alt="" width="250px" height="270px">
+            </td>
+            <td>
+                <img src="https://www.southernliving.com/thmb/x5xM5QvARl_og39g1jD1N1HfUlA=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Extra_Easy_Lasagna_005_16x9-24d8c7469367440bb9aad73e9a83ded9.jpg" alt="" width="250px" height="270px">
+            </td> <br>
+            <th bgcolor="black" rowspan="6"><my id="Food">Food Prices</my>
+                                    <br> <br>
+                                 1. Spaghetti Italiano
+                                   <ul>
+                                    <li>Regular: $10.00</li>
+                                    <li>Regular: $19.00</li>
+                                   </ul>
+                                2. Sweet and Sour Chicken
+                                   <ul>
+                                    <li>Regular: $20.00</li>
+                                    <li>Special: $29.00</li>
+                                </ul>   
+                                3. Lasagna  
+                                    <ul>
+                                        <li>Regular: $15.00</li>
+                                        <li>Special: $19.00</li>
+                                    </ul>                                                              
+                                 4. Arabic Beef Stew
+                                 <ul>
+                                    <li>Regular: $20.00</li>
+                                    <li>Special: $29.00</li>
+                                </ul>   
+                                 5. Burgers and Fries
+                                 <ul>
+                                    <li>Regular: $10.00</li>
+                                    <li>Special: $19.00</li>
+                                </ul>   
+                                 6. Chicken and Salad 
+                                 <ul>
+                                    <li>Regular: $18.00</li>
+                                    <li>Special: $30.00</li>
+                                </ul>   
+                                 Customer Name: <br>
+                                 <input type="text">           
+            </th>
+        </tr>
+        <tr>
+            <td id ="Font">
+                <b>Spaghetti Italiano</b>
+            </td>
+            <td id="Font">
+                <b>Sweet and Sour Chicken</b>
+            </td>
+            <td id="Font">
+                <b>Lasagna</b>
+            </td>
+        </tr>
+        <tr>
+            <td id="Regular">
+                    <input type="radio" name="Italiano"> Regular
+                    <input type="radio" name="Italiano"> Special   
+            </td>
+            <td id="Regular">    
+                    <input type="radio" name="Chicken"> Regular
+                    <input type="radio" name="Chicken"> Special 
+            </td>
+            <td id="Regular">
+                    <input type="radio" name="Lasagna"> Regular
+                    <input type="radio" name="Lasagna"> Special 
+            </td>
+        </tr>
+        <tr> <td>
+             <img src="https://www.fufuskitchen.com/wp-content/uploads/2020/11/IMG_7768_jpg-3-697x1024.webp" alt="" height="270px" width="250px">
+            </td>
+            <td>
+                <img src="https://cdn.vox-cdn.com/thumbor/2s2DbHTMSZK0uo6pMIR3iSQjDpU=/0x433:5199x3033/fit-in/1200x600/cdn.vox-cdn.com/uploads/chorus_asset/file/25006675/IMG_7068__1_.JPG" alt="" width="250px" height="270px">
+            </td>
+            <td>
+                <img src="https://tatyanaseverydayfood.com/wp-content/uploads/2016/02/Garlic-Chicken-Salad-3-768x1024.jpg" alt="" height="270px" width="250px">
+            </td>
+        </tr>
+        <tr>
+            <td id="Font">
+                <b>Arabic Beef Stew</b>
+            </td>
+            <td id="Font">
+                <b>Burgers and Fries</b>
+            </td>
+            <td id="Font">
+                <b>Chicken and Salad</b>
+            </td>
+        </tr>
+        <tr>
+             <td id="Regular">
+                    <input type="radio" name="Beef"> Regular
+                    <input type="radio" name="Beef"> Special   
+            </td>
+            <td id="Regular">
+                    <input type="radio" name="Burgers"> Regular
+                    <input type="radio" name="Burgers"> Special   
+            </td>
+            <td id="Regular">
+                    <input type="radio" name="Salad"> Regular
+                    <input type="radio" name="Salad"> Special   
+             </td>
+        </tr>
+        <tr id="checkbox">
+            <td colspan="4">
+                 <input type="checkbox" name="eat" id="eat"> <b>Dine-in</b>
+                <input type="checkbox" name="eat" id="eat"> <b>Take-out</b> <br> <br>
+                <input type="button" value="Buy Now">
+            </td>
+                
+        </tr>
+    </table>
+</body>
+</html>
