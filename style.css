@@ -1,0 +1,79 @@
+
+body, html{
+    height: 100%;
+    margin: 0;
+}
+body{
+
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-image: url(sky.jpg);
+}
+
+#header_div{
+    font-family: fantasy;
+    font-size: 50px;
+    color: rgb(235, 14, 216);
+    text-align: center;
+    margin-top: 5%;
+    height: 20%;
+    color: #f2cee6;
+    letter-spacing: 6px;
+    text-shadow: 5px 5px 0px #2dc7ff;
+    -webkit-text-stroke: 0.09375rem #0d1b1e;
+    -o-text-stroke: 0.09375rem #0d1b1e;
+
+}
+#margin_left{
+   
+    float: left;
+    width: 5%;
+    color: aquamarine;
+
+}
+#margin_right{
+
+    float: right;
+    width: 5%;
+    color: aquamarine;
+}
+#body_div{
+    height: 70%;
+    width: 100%;
+    display: flex;
+}
+
+#name{
+    color: rgb(238, 7, 180);
+    text-align: center;
+    font-family: fantasy;
+    font-size: 40px; 
+    color: pink;
+    letter-spacing: 6px;
+    text-shadow: 5px 5px 0px rgb(48, 2, 17);
+    -webkit-text-stroke: 0.09375rem palevioletred;
+    -o-text-stroke: 0.09375rem #0d1b1e;
+    border-radius: 10px;
+    border-style: groove;
+    background-image: url(sky.jpg);
+
+}
+table img{
+    border-width: 5%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    object-fit: contain;
+    border-radius: 50px;
+    border-style: groove;
+    background-image: url(chibi.jpg);
+  }
+#footer{
+    font-size: 30px;
+    color: #c00e85;
+    font-family: fantasy;
+    text-align: center;
+}
+
+
+
